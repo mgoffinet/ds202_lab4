@@ -1,0 +1,15 @@
+---
+title: 'Lab #4 Team'
+author: "McKenna Goffinet, Anyesha Ray"
+date: "3/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+defense <- read_excel('cyclonesFootball2019.xlsx', sheet='Defensive')
+offense <- read_excel('cyclonesFootball2019.xlsx', sheet='Offensive')
+biography <- read_excel('cyclonesFootball2019.xlsx', sheet='Biography')
+```
+
